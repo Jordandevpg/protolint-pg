@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/shared"
 
-	"github.com/yoheimuta/protolint/internal/linter/config"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/config"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/Jordandevpg/protolint-pg/internal/cmd/subcmds"
+	"github.com/Jordandevpg/protolint-pg/internal/osutil"
 	"github.com/yoheimuta/protolint/linter/autodisable"
 	"github.com/yoheimuta/protolint/linter/rule"
 )

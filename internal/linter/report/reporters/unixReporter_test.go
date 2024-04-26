@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yoheimuta/protolint/internal/linter/report/reporters"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/report/reporters"
 
 	"github.com/yoheimuta/go-protoparser/v4/parser/meta"
 

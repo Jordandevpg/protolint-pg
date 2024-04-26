@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
+	"github.com/Jordandevpg/protolint-pg/internal/addon/rules"
 	"github.com/yoheimuta/protolint/_example/plugin/customrules"
-	"github.com/yoheimuta/protolint/internal/addon/rules"
 	"github.com/yoheimuta/protolint/linter/rule"
 	"github.com/yoheimuta/protolint/plugin"
 )

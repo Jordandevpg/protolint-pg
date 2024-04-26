@@ -1,11 +1,11 @@
 package subcmds
 
 import (
-	"github.com/yoheimuta/protolint/internal/addon/plugin"
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
-	"github.com/yoheimuta/protolint/internal/addon/rules"
-	"github.com/yoheimuta/protolint/internal/linter/config"
-	internalrule "github.com/yoheimuta/protolint/internal/linter/rule"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/shared"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/rules"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/config"
+	internalrule "github.com/Jordandevpg/protolint-pg/internal/linter/rule"
 	"github.com/yoheimuta/protolint/linter/autodisable"
 )
 

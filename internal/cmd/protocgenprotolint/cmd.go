@@ -11,14 +11,14 @@ import (
 
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
+	"github.com/Jordandevpg/protolint-pg/internal/cmd/subcmds"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds/lint"
+	"github.com/Jordandevpg/protolint-pg/internal/cmd/subcmds/lint"
 
 	"github.com/golang/protobuf/proto"
 	protogen "github.com/golang/protobuf/protoc-gen-go/plugin"
 
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/Jordandevpg/protolint-pg/internal/osutil"
 )
 
 var (

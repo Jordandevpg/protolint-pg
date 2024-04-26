@@ -3,8 +3,8 @@ package rules
 import (
 	"strings"
 
+	"github.com/Jordandevpg/protolint-pg/internal/linter/config"
 	"github.com/yoheimuta/go-protoparser/v4/parser"
-	"github.com/yoheimuta/protolint/internal/linter/config"
 	"github.com/yoheimuta/protolint/linter/report"
 	"github.com/yoheimuta/protolint/linter/rule"
 	"github.com/yoheimuta/protolint/linter/visitor"

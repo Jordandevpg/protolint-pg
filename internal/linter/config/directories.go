@@ -3,7 +3,7 @@ package config
 import (
 	"strings"
 
-	"github.com/yoheimuta/protolint/internal/filepathutil"
+	"github.com/Jordandevpg/protolint-pg/internal/filepathutil"
 )
 
 // Directories represents the target directories.

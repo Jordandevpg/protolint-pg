@@ -24,6 +24,7 @@ type RulesOption struct {
 	EnumFieldNamesUpperSnakeCase    CustomizableSeverityOption            `yaml:"enum_field_names_upper_snake_case" json:"enum_field_names_upper_snake_case" toml:"enum_field_names_upper_snake_case"`
 	EnumNamesUpperCamelCase         CustomizableSeverityOption            `yaml:"enum_names_upper_camel_case" json:"enum_names_upper_camel_case" toml:"enum_names_upper_camel_case"`
 	FieldNamesLowerSnakeCase        CustomizableSeverityOption            `yaml:"field_names_lower_snake_case" json:"field_names_lower_snake_case" toml:"field_names_lower_snake_case"`
+	FieldNamesLowerCamelCase        CustomizableSeverityOption            `yaml:"field_names_lower_camel_case" json:"field_names_lower_camel_case" toml:"field_names_lower_camel_case"`
 	FileHasComment                  CustomizableSeverityOption            `yaml:"file_has_comment" json:"file_has_comment" toml:"file_has_comment"`
 	MessageNamesUpperCamelCase      CustomizableSeverityOption            `yaml:"message_names_upper_camel_case" json:"message_names_upper_camel_case" toml:"message_names_upper_camel_case"`
 	Order                           CustomizableSeverityOption            `yaml:"order" json:"order" toml:"order"`

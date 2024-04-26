@@ -3,9 +3,9 @@ package list
 import (
 	"flag"
 
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
+	"github.com/Jordandevpg/protolint-pg/internal/cmd/subcmds"
 
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/shared"
 )
 
 // Flags represents a set of lint flag parameters.

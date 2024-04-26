@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/yoheimuta/protolint/internal/stringsutil"
+	"github.com/Jordandevpg/protolint-pg/internal/stringsutil"
 
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 

@@ -1,11 +1,11 @@
 package lint
 
 import (
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
-	"github.com/yoheimuta/protolint/internal/cmd/subcmds"
-	"github.com/yoheimuta/protolint/internal/linter/config"
-	"github.com/yoheimuta/protolint/internal/linter/file"
-	"github.com/yoheimuta/protolint/internal/linter/report"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/shared"
+	"github.com/Jordandevpg/protolint-pg/internal/cmd/subcmds"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/config"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/file"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/report"
 	"github.com/yoheimuta/protolint/linter/autodisable"
 	"github.com/yoheimuta/protolint/linter/rule"
 )

@@ -1,6 +1,6 @@
 package config
 
-import "github.com/yoheimuta/protolint/internal/stringsutil"
+import "github.com/Jordandevpg/protolint-pg/internal/stringsutil"
 
 // Rules represents the enabled rule set.
 type Rules struct {

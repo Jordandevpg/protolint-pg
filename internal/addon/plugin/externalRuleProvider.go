@@ -1,8 +1,8 @@
 package plugin
 
 import (
-	"github.com/yoheimuta/protolint/internal/addon/plugin/proto"
-	"github.com/yoheimuta/protolint/internal/addon/plugin/shared"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/proto"
+	"github.com/Jordandevpg/protolint-pg/internal/addon/plugin/shared"
 
 	"github.com/yoheimuta/protolint/linter/rule"
 )

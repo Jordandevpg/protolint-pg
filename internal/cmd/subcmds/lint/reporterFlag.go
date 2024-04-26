@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yoheimuta/protolint/internal/linter/report"
-	"github.com/yoheimuta/protolint/internal/linter/report/reporters"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/report"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/report/reporters"
 )
 
 type reporterFlag struct {

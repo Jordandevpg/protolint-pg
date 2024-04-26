@@ -10,11 +10,11 @@ import (
 
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 
-	"github.com/yoheimuta/protolint/internal/linter/config"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/config"
 
-	"github.com/yoheimuta/protolint/internal/linter"
-	"github.com/yoheimuta/protolint/internal/linter/file"
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/Jordandevpg/protolint-pg/internal/linter"
+	"github.com/Jordandevpg/protolint-pg/internal/linter/file"
+	"github.com/Jordandevpg/protolint-pg/internal/osutil"
 	"github.com/yoheimuta/protolint/linter/report"
 )
 

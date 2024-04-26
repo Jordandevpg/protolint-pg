@@ -10,7 +10,7 @@ import (
 
 	"github.com/yoheimuta/go-protoparser/v4/parser"
 
-	"github.com/yoheimuta/protolint/internal/osutil"
+	"github.com/Jordandevpg/protolint-pg/internal/osutil"
 )
 
 // TextEdit represents the replacement of the code between Pos and End with the new text.
