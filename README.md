@@ -4,5 +4,5 @@
 
 ### Installation
 ```bash
-go install github.com/Jordandevpg/protolint-pg/cmd/protolint@v0.0.1
+go install github.com/Jordandevpg/protolint-pg/cmd/protolint@latest
 ```
