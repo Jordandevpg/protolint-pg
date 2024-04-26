@@ -123,6 +123,10 @@ func newAllInternalRules(
 			fixMode,
 			autoDisableType,
 		),
+		rules.NewFieldNamesLowerCamelCaseRule(
+			fixMode,
+			autoDisableType,
+		),
 		rules.NewFieldNamesExcludePrepositionsRule(
 			fieldNamesExcludePrepositions.Severity(),
 			fieldNamesExcludePrepositions.Prepositions,

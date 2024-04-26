@@ -50,17 +50,5 @@ run/cmd/protolint/exampleconfig:
 ## build/cmd/protolint builds protolint
 build/cmd/protolint:
 	go build \
-		-ldflags "-X github.com/Jordandevpg/protolint-pg/internal/cmd.version=`git describe --tags --abbrev=0` -X github.com/Jordandevpg/protolint-pg/internal/cmd.revision=`git rev-parse --short HEAD`" \
 		-o protolint \
 		cmd/protolint/main.go
-
-## build/example/plugin builds a plugin
-build/example/plugin:
-	go build -o plugin_example _example/plugin/main.go
-
-## build/cmd/protoc-gen-protolint builds protoc-gen-protolint
-build/cmd/protoc-gen-protolint:
-	go build \
-		-ldflags "-X github.com/Jordandevpg/protolint-pg/internal/cmd/protocgenprotolint.version=`git describe --tags --abbrev=0` -X github.com/Jordandevpg/protolint-pg/internal/cmd/protocgenprotolint.revision=`git rev-parse --short HEAD`" \
-		-o protoc-gen-protolint \
-		cmd/protoc-gen-protolint/main.go

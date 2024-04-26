@@ -19,10 +19,16 @@ type FieldNamesLowerCamelCaseRule struct {
 }
 
 // NewFieldNamesLowerCamelCaseRule creates a new FieldNamesLowerCamelCaseRule.
-func NewFieldNamesLowerCamelCaseRule() FieldNamesLowerCamelCaseRule {
+func NewFieldNamesLowerCamelCaseRule(
+	fixMode bool,
+	autoDisableType autodisable.PlacementType,
+) FieldNamesLowerCamelCaseRule {
+	if autoDisableType != autodisable.Noop {
+		fixMode = false
+	}
 	return FieldNamesLowerCamelCaseRule{
-		fixMode:         false,
-		autoDisableType: autodisable.Noop,
+		fixMode:         fixMode,
+		autoDisableType: autoDisableType,
 	}
 }
 
